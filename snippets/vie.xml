@@ -27,6 +27,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="vie" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="vie" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="vie" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="vie" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="vie" />
   <project path="vendor/vieOTA" name="android_vendor_vieOTA" remote="vie" />
 
@@ -36,6 +37,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="vie" revision="16" />
   <project path="packages/apps/LineageParts" name="packages_apps_Parts" remote="vie" revision="16" />
   <project path="packages/apps/AppLocker" name="packages_apps_AppLocker" remote="vie" revision="16" />
+  <project path="vendor/support" name="vendor_support" remote="vie" revision="16" />
 
   <!-- ParanoidSense face unlock -->
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="infinity" />
