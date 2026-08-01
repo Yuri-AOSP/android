@@ -8,6 +8,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <remote  name="infinity"
+           fetch="https://github.com/ProjectInfinity-X"
+           revision="16" />
+
   <!-- Vie AOSP additions -->
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="vie" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -31,6 +35,9 @@
   <project path="system/core" name="system_core" groups="pdk" remote="vie" revision="16" />
   <project path="packages/apps/LineageParts" name="packages_apps_Parts" remote="vie" revision="16" />
   <project path="packages/apps/AppLocker" name="packages_apps_AppLocker" remote="vie" revision="16" />
+
+  <!-- ParanoidSense face unlock -->
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="infinity" />
 
   <!-- GMS -->
   <project path="vendor/google/gms" name="tejas101k/vendor_google_gms" remote="gitlab" revision="16" clone-depth="1" />
