@@ -8,10 +8,6 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
-  <remote  name="infinity"
-           fetch="https://github.com/ProjectInfinity-X"
-           revision="16" />
-
   <!-- Vie AOSP additions -->
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="vie" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -28,6 +24,9 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="vie" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="vie" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="vie" />
+  <project path="axion_sdk" name="android_axion_sdk" remote="vie" />
+  <project path="packages/services/Omnijaws" name="android_packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="vie" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="vie" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="vie" />
   <project path="packages/apps/VieSuite" name="android_packages_apps_VieSuite" remote="vie" />
   <project path="vendor/vieOTA" name="android_vendor_vieOTA" remote="vie" />
@@ -39,9 +38,11 @@
   <project path="packages/apps/LineageParts" name="packages_apps_Parts" remote="vie" revision="16" />
   <project path="packages/apps/AppLocker" name="packages_apps_AppLocker" remote="vie" revision="16" />
   <project path="vendor/support" name="vendor_support" remote="vie" revision="16" />
+  <project path="vendor/extras" name="vendor_extras" remote="vie" revision="16" />
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="vie" revision="16" />
 
   <!-- ParanoidSense face unlock -->
-  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="infinity" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="vie" revision="16" />
 
   <!-- GMS -->
   <project path="vendor/google/gms" name="tejas101k/vendor_google_gms" remote="gitlab" revision="16" clone-depth="1" />
