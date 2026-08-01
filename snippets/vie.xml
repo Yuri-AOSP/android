@@ -23,6 +23,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="vie" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="vie" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="vie" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="vie" />
 
   <!-- Vie AOSP additions (ProjectInfinity-X based) -->
   <project path="art" name="art" groups="pdk" remote="vie" revision="16" />
