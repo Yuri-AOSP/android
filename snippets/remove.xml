@@ -16,5 +16,6 @@
   <remove-project name="LineageOS/android_packages_apps_Launcher3" />
   <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="platform/external/pffft" />
   <remove-project name="platform/art" />
 </manifest>
