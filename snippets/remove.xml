@@ -8,6 +8,7 @@
   <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_frameworks_libs_systemui" />
   <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_system_media" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_vendor_lineage" />
